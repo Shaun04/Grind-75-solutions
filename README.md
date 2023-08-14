@@ -22,6 +22,6 @@ This repository contains my take on the Grind 75 problem solutions.
 - It uses two variables min and max_profit. It traverses the list when it finds the least number of profit it adds it in the min varaible.
 - Time Complexity is O(n)
 
-### [Valid Palindrome](https://github.com/Shaun04/Grind-75-solutions/blob/main/String/valid-palindrome.py)
+### [Valid Palindrome](https://github.com/Shaun04/Grind-75-solutions/blob/main/String/valid-palidrome.py)
 - If the string contains alphanumeric characters then it is added to a new variable and then later it is checked if its a palindrome or not.
 - Time Complexity is O(n)

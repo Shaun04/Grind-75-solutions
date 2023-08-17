@@ -1,7 +1,7 @@
 #Solution 1: Using Hashmap
 #Time Complexity: O(n)
 class Solution:
-    def majorityElement(self, nums: List[int]) -> int:
+    def majorityElement(self, nums) -> int:
         majority_element = {}
         for i in nums:
             if i not in majority_element:
@@ -12,7 +12,7 @@ class Solution:
 #Solution 2: Using Boyer Moore Algorithm
 #Time Complexity: O(1)
 class Solution:
-    def majorityElement(self, nums: List[int]) -> int:
+    def majorityElement(self, nums) -> int:
         res,count = 0,0
         for i in nums:
             if count == 0:

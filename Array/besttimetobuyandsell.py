@@ -1,5 +1,5 @@
 class Solution:
-    def maxProfit(self, prices: List[int]) -> int:
+    def maxProfit(self, prices) -> int:
         min_so_far, max_profit = prices[0], 0
         for i in prices:
             if i < min_so_far:

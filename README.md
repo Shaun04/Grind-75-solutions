@@ -28,11 +28,21 @@ This repository contains my take on the Grind 75 problem solutions.
 - Time Complexity is O(n)
 
 ### [Majority Element](https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/majority-element.py)
-- Solution 1 (Using Hashmap)
+Solution 1 (Using Hashmap)
 - In this solution we have used a Hashmap to store the values as well as the number of times they occur as a key value pair
 - Time Complexity is O(n)
 
-- Solution 2 (Using Boyer Moore Algorithn)
+Solution 2 (Using Boyer Moore Algorithm)
 - We initalise two varaibles res and count. If we encounter the same variable we increment count and if we encounter a different number we decrement count.
 - Once the res is 0 we change the number
 - Time Complexity is O(1)
+
+### [Duplicate Element](https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/duplicate-element.py)
+Solution 1 (Using Hashmap)
+- In this solution we have used a Hashmap to store the values when we encounter a number from the list first we check if it exists in the hashmapm, if it doesnt exist in the hashmap we add that element otherwise we return True.
+- Time Complexity is O(n)
+
+Solution 2 (Using Sets)
+- Sets in python can only store distinct elements so we convert the list into a set and then check if the length of the set is equal to the length of the list. If both are equal we can be certain there are no duplicate elements.
+- Time Complexity is O(n)
+

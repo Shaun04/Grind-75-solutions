@@ -9,6 +9,7 @@ This repository contains my take on the Grind 75 problem solutions.
 3. [Best Time to Buy and Sell Stock](#best-time-to-buy-and-sell-stock)
 4. [Valid Palindrome](#valid-palindrome)
 5. [Majority Element](#majority-element)
+6. [Insert Interval](#insert-interval)
 
 ## Solutions Used :bookmark_tabs:
 ### [Two Sums](https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/twosums.py)
@@ -44,5 +45,10 @@ Solution 1 (Using Hashmap)
 
 Solution 2 (Using Sets)
 - Sets in python can only store distinct elements so we convert the list into a set and then check if the length of the set is equal to the length of the list. If both are equal we can be certain there are no duplicate elements.
+- Time Complexity is O(n)
+
+### [Insert Interval](https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/insert-interval.py)
+- First we check if the newInterval is in the beginning or end of the already exisitng interval. If it is we directly add it to the list.
+- If the newInterval is in the middle of the array we merge the overlapping element.
 - Time Complexity is O(n)
 

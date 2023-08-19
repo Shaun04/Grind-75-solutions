@@ -10,6 +10,7 @@ This repository contains my take on the Grind 75 problem solutions.
 4. [Valid Palindrome](#valid-palindrome)
 5. [Majority Element](#majority-element)
 6. [Insert Interval](#insert-interval)
+7. [Three Sums](#three-sums)
 
 ## Solutions Used :bookmark_tabs:
 ### [Two Sums](https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/twosums.py)
@@ -51,4 +52,10 @@ Solution 2 (Using Sets)
 - First we check if the newInterval is in the beginning or end of the already exisitng interval. If it is we directly add it to the list.
 - If the newInterval is in the middle of the array we merge the overlapping element.
 - Time Complexity is O(n)
+
+### [Three Sums](https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/three-sums.py)
+- First we sort the list then we take the first number of the list and use the two pointer approach to find the second and third number.
+- If the first, second and third number equates to zero we add it to a set.
+- We use a set so that it eliminates the duplicate answers
+- Time Complexity is O(n^2)
 

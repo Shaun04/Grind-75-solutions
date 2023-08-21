@@ -12,6 +12,7 @@ This repository contains my take on the Grind 75 problem solutions.
 6. [Insert Interval](#insert-interval)
 7. [Three Sums](#three-sums)
 8. [Product Except Self](#product-except-self)
+9. [Combination Sum](#combination-sum)
 
 ## Solutions Used :bookmark_tabs:
 ### [Two Sums](https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/twosums.py)
@@ -60,9 +61,14 @@ Solution 2 (Using Sets)
 - We use a set so that it eliminates the duplicate answers
 - Time Complexity is O(n^2)
 
-### [Product Except Self]((https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/productexceptself.py))
+### [Product Except Self](https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/productexceptself.py)
 - We use two methods, both the methods are similar but one uses 2 arrays and the other one uses only 1 array.
 - Find the prefix product and the postfix product of the input array and then multiply the prefix and postfix together.
 - Time Complexity is O(n)
 - Space Complexity for two arrays is O(n) and for using only one array is O(1)
+
+### [Combination Sum]((https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/combination-sum.py))
+- We use backtracking and recursion approach for this problem.
+- If the total sum of the combination is greater than the target we backtrack to the previous element and try again.
+- Time Complexity is O(2^n) where n is the target.
 

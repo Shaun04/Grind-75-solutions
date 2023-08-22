@@ -17,13 +17,11 @@ This repository contains my take on the Grind 75 problem solutions.
 11. [Sort Colors](#sort-colors)
 
 ## Solutions Used :bookmark_tabs:
+## Arrays
 ### [Two Sums](https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/twosums.py)
 - Used a hashmap for this algorithm.
 - Time Complexity is O(nlogn)
 
-### [Valid Parentheses](https://github.com/Shaun04/Grind-75-solutions/blob/main/Stack/valid-parentheses.py)
-- Open parentheses is pushed in the stack and when a closing parentheses appears it pops the opening parentheses in the stack.
-- Time complexity is O(n)
 
 ### [Best Time to Buy and Sell Stock](https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/besttimetobuyandsell.py)
 - It uses two variables min and max_profit. It traverses the list when it finds the least number of profit it adds it in the min varaible.
@@ -84,3 +82,8 @@ Solution 2 (Using Sets)
 - We swap low and med if med encounters a 0. And when med encounters a 1 we increment med by 1 and read the next.
 - We swap high and med is med encounters a 2.
 - Time Complexity is O(n)
+
+## Stacks
+### [Valid Parentheses](https://github.com/Shaun04/Grind-75-solutions/blob/main/Stack/valid-parentheses.py)
+- Open parentheses is pushed in the stack and when a closing parentheses appears it pops the opening parentheses in the stack.
+- Time complexity is O(n)

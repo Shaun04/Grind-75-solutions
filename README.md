@@ -13,6 +13,7 @@ This repository contains my take on the Grind 75 problem solutions.
 7. [Three Sums](#three-sums)
 8. [Product Except Self](#product-except-self)
 9. [Combination Sum](#combination-sum)
+10. [Container with most amount of water](#container-with-most-amount-of-water)
 
 ## Solutions Used :bookmark_tabs:
 ### [Two Sums](https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/twosums.py)
@@ -67,8 +68,13 @@ Solution 2 (Using Sets)
 - Time Complexity is O(n)
 - Space Complexity for two arrays is O(n) and for using only one array is O(1)
 
-### [Combination Sum]((https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/combination-sum.py))
+### [Combination Sum](https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/combination-sum.py)
 - We use backtracking and recursion approach for this problem.
 - If the total sum of the combination is greater than the target we backtrack to the previous element and try again.
 - Time Complexity is O(2^n) where n is the target.
+
+### [Container with most amount of water](https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/container-with-most-water.py)
+- We use the two pointer approach to solve this problem.
+- We first intialise a max variable and we start the pointers from left and right. If left is less than the right we shift the left by one an vice versa.
+- Time Complexity is O(n)
 

@@ -14,6 +14,7 @@ This repository contains my take on the Grind 75 problem solutions.
 8. [Product Except Self](#product-except-self)
 9. [Combination Sum](#combination-sum)
 10. [Container with most amount of water](#container-with-most-amount-of-water)
+11. [Sort Colors](#sort-colors)
 
 ## Solutions Used :bookmark_tabs:
 ### [Two Sums](https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/twosums.py)
@@ -78,3 +79,8 @@ Solution 2 (Using Sets)
 - We first intialise a max variable and we start the pointers from left and right. If left is less than the right we shift the left by one an vice versa.
 - Time Complexity is O(n)
 
+### [Sort Colors](https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/sort-colots.py)
+- We have used the three pointer approach. For this we need three pointers low,med,high.
+- We swap low and med if med encounters a 0. And when med encounters a 1 we increment med by 1 and read the next.
+- We swap high and med is med encounters a 2.
+- Time Complexity is O(n)

@@ -15,6 +15,7 @@ This repository contains my take on the Grind 75 problem solutions.
 9. [Combination Sum](#combination-sum)
 10. [Container with most amount of water](#container-with-most-amount-of-water)
 11. [Sort Colors](#sort-colors)
+12. [Implement Queue Using Stacks](#implement-queue-using-stacks)
 
 ## Solutions Used :bookmark_tabs:
 ## Arrays
@@ -87,3 +88,7 @@ Solution 2 (Using Sets)
 ### [Valid Parentheses](https://github.com/Shaun04/Grind-75-solutions/blob/main/Stack/valid-parentheses.py)
 - Open parentheses is pushed in the stack and when a closing parentheses appears it pops the opening parentheses in the stack.
 - Time complexity is O(n)
+
+### [Implement Queue Using Stacks](https://github.com/Shaun04/Grind-75-solutions/blob/main/Stack/implement-queue-using-stacks.py)
+- Using stack queues to build a stack.
+- Time Complexity is O(n)

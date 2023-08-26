@@ -81,7 +81,7 @@ Solution 2 (Using Sets)
 ### [Sort Colors](https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/sort-colots.py)
 - We have used the three pointer approach. For this we need three pointers low,med,high.
 - We swap low and med if med encounters a 0. And when med encounters a 1 we increment med by 1 and read the next.
-- We swap high and med is med encounters a 2.
+- We swap var high and var med when var med encounters a 2.
 - Time Complexity is O(n)
 
 ## Stacks

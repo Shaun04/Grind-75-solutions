@@ -90,5 +90,5 @@ Solution 2 (Using Sets)
 - Time complexity is O(n)
 
 ### [Implement Queue Using Stacks](https://github.com/Shaun04/Grind-75-solutions/blob/main/Stack/implement-queue-using-stacks.py)
-- Using stack queues to build a stack.
+- Using queues to build a stack.
 - Time Complexity is O(n)

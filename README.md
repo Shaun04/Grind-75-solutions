@@ -26,11 +26,11 @@ This repository contains my take on the Grind 75 problem solutions.
 
 ### [Best Time to Buy and Sell Stock](https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/besttimetobuyandsell.py)
 - It uses two variables min and max_profit. It traverses the list when it finds the least number of profit it adds it in the min varaible.
-- Time Complexity is O(n)
+- Time Complexity is O(n).
 
 ### [Valid Palindrome](https://github.com/Shaun04/Grind-75-solutions/blob/main/String/valid-palidrome.py)
 - If the string contains alphanumeric characters then it is added to a new variable and then later it is checked if its a palindrome or not.
-- Time Complexity is O(n)
+- Time Complexity is O(n).
 
 ### [Majority Element](https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/majority-element.py)
 Solution 1 (Using Hashmap)

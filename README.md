@@ -16,6 +16,7 @@ This repository contains my take on the Grind 75 problem solutions.
 10. [Container with most amount of water](#container-with-most-amount-of-water)
 11. [Sort Colors](#sort-colors)
 12. [Implement Queue Using Stacks](#implement-queue-using-stacks)
+13. [Evaluate Reverse Polish Notation](#evaluate-reverse-polish-notation)
 
 ## Solutions Used :bookmark_tabs:
 ## Arrays
@@ -92,3 +93,10 @@ Solution 2 (Using Sets)
 ### [Implement Queue Using Stacks](https://github.com/Shaun04/Grind-75-solutions/blob/main/Stack/implement-queue-using-stacks.py)
 - Using queues to build a stack.
 - Time Complexity is O(n)
+
+### [Evaluate Reverse Polish Notation](https://github.com/Shaun04/Grind-75-solutions/blob/main/Stack/polish-notation.py)
+- It uses a Stack
+- If it encounters a int it pushes it to the stack
+- Once it encounters a operand it fetched the last two numbers that are on the top of the stack and does the operation
+- Then after the answer is obtained its pushed backed in the stack
+- Time and Space Complexity is O(n)

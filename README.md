@@ -100,3 +100,9 @@ Solution 2 (Using Sets)
 - Once it encounters a operand it fetched the last two numbers that are on the top of the stack and does the operation
 - Then after the answer is obtained its pushed backed in the stack
 - Time and Space Complexity is O(n)
+
+### [Min Stack](https://github.com/Shaun04/Grind-75-solutions/blob/main/Stack/min-stack.py)
+- We use two stacks in this method
+- One stack will contain the elements and the other one will contain the minimum elements
+- If popped operation is used then the element is removed from both the stacks
+- Time Complexity is O(1)

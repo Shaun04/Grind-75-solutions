@@ -17,6 +17,7 @@ This repository contains my take on the Grind 75 problem solutions.
 11. [Sort Colors](#sort-colors)
 12. [Implement Queue Using Stacks](#implement-queue-using-stacks)
 13. [Evaluate Reverse Polish Notation](#evaluate-reverse-polish-notation)
+14. [Min Stack](#min-stack)
 
 ## Solutions Used :bookmark_tabs:
 ## Arrays

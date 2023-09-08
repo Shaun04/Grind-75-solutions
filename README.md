@@ -18,6 +18,7 @@ This repository contains my take on the Grind 75 problem solutions.
 12. [Implement Queue Using Stacks](#implement-queue-using-stacks)
 13. [Evaluate Reverse Polish Notation](#evaluate-reverse-polish-notation)
 14. [Min Stack](#min-stack)
+15. [Trapping Rain Water](#trapping-rain-water)
 
 ## Solutions Used :bookmark_tabs:
 ## Arrays
@@ -107,3 +108,7 @@ Solution 2 (Using Sets)
 - One stack will contain the elements and the other one will contain the minimum elements
 - If popped operation is used then the element is removed from both the stacks
 - Time Complexity is O(1)
+
+### [Trapping Rain Water](https://github.com/Shaun04/Grind-75-solutions/blob/main/Stack/trapping-rain-water.py)
+- We use the two pointer approach to solve this problem
+- Time Complexity is O(n)

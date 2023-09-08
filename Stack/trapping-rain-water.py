@@ -1,5 +1,5 @@
 class Solution:
-    def trap(self, height: List[int]) -> int:
+    def trap(self, height) -> int:
         left, right , max_height, ans= 0, len(height) - 1, 0, 0
         while left < right:
             min_height = min(height[left], height[right])

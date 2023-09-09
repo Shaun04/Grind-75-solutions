@@ -19,6 +19,7 @@ This repository contains my take on the Grind 75 problem solutions.
 13. [Evaluate Reverse Polish Notation](#evaluate-reverse-polish-notation)
 14. [Min Stack](#min-stack)
 15. [Trapping Rain Water](#trapping-rain-water)
+16. [Merge Two Sorted Linked List](#merge-two-sorted-linked-list)
 
 ## Solutions Used :bookmark_tabs:
 ## Arrays
@@ -112,3 +113,8 @@ Solution 2 (Using Sets)
 ### [Trapping Rain Water](https://github.com/Shaun04/Grind-75-solutions/blob/main/Stack/trapping-rain-water.py)
 - We use the two pointer approach to solve this problem
 - Time Complexity is O(n)
+
+## Linked List
+### [Trapping Rain Water](https://github.com/Shaun04/Grind-75-solutions/blob/main/Linked-List/mergetwosortedlist.py)
+- We use head and current variables to connect the linked list. A linked list consists of next and current variables.
+Time Complexity is O(n)

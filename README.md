@@ -70,7 +70,7 @@ Solution 2 (Using Sets)
 - We use two methods, both the methods are similar but one uses 2 arrays and the other one uses only 1 array.
 - Find the prefix product and the postfix product of the input array and then multiply the prefix and postfix together.
 - Time Complexity is O(n)
-- Space Complexity for two arrays is O(n) and for using only one array is O(1)
+- Space Complexity for two arrays is O(n) and using only one array is O(1)
 
 ### [Combination Sum](https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/combination-sum.py)
 - We use backtracking and recursion approach for this problem.

@@ -20,6 +20,7 @@ This repository contains my take on the Grind 75 problem solutions.
 14. [Min Stack](#min-stack)
 15. [Trapping Rain Water](#trapping-rain-water)
 16. [Merge Two Sorted Linked List](#merge-two-sorted-linked-list)
+17. [Linked List Cycle](#linked-list-cycle)
 
 ## Solutions Used :bookmark_tabs:
 ## Arrays
@@ -118,3 +119,11 @@ Solution 2 (Using Sets)
 ### [Merge two sorted list](https://github.com/Shaun04/Grind-75-solutions/blob/main/Linked-List/mergetwosortedlist.py)
 - We use head and current variables to connect the linked list. A linked list consists of next and current variables.
 Time Complexity is O(n)
+
+### [Linked List Cycle](https://github.com/Shaun04/Grind-75-solutions/blob/main/Linked-List/linkedlistcycle.py)
+- Approach 1:
+- We store the visited nodes in a hash set and when we again encounter the same node we return false.
+- Time Complexity is O(n) and Space Complexity is O(n)
+- Approach 2:
+- We use two pointers one slow one fast. The slow one traverses one node at a time but the fast node traverses two nodes at one.
+- Time Complexity is O(n) and Space Complexity is O(1)

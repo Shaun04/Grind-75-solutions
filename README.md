@@ -115,6 +115,6 @@ Solution 2 (Using Sets)
 - Time Complexity is O(n)
 
 ## Linked List
-### [Trapping Rain Water](https://github.com/Shaun04/Grind-75-solutions/blob/main/Linked-List/mergetwosortedlist.py)
+### [Merge two sorted list](https://github.com/Shaun04/Grind-75-solutions/blob/main/Linked-List/mergetwosortedlist.py)
 - We use head and current variables to connect the linked list. A linked list consists of next and current variables.
 Time Complexity is O(n)

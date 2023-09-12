@@ -21,6 +21,7 @@ This repository contains my take on the Grind 75 problem solutions.
 15. [Trapping Rain Water](#trapping-rain-water)
 16. [Merge Two Sorted Linked List](#merge-two-sorted-linked-list)
 17. [Linked List Cycle](#linked-list-cycle)
+18. [Reverse Linked List](#reverse-linked-list)
 
 ## Solutions Used :bookmark_tabs:
 ## Arrays
@@ -126,4 +127,10 @@ Time Complexity is O(n)
 - Time Complexity is O(n) and Space Complexity is O(n)
 - Approach 2:
 - We use two pointers one slow one fast. The slow one traverses one node at a time but the fast node traverses two nodes at one.
+- Time Complexity is O(n) and Space Complexity is O(1)
+
+### [Reverse Linked List](https://github.com/Shaun04/Grind-75-solutions/blob/main/Linked-List/reverselinkedlist.py)
+- We go through each nodes in the linkedlist and then reverse it one by one till we reach the end.
+- Two pointer approach is used for this. The two pointers are prev and curr
+- We initalise previous as None and current as the first node of the Linked List.
 - Time Complexity is O(n) and Space Complexity is O(1)

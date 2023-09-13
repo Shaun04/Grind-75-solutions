@@ -22,6 +22,7 @@ This repository contains my take on the Grind 75 problem solutions.
 16. [Merge Two Sorted Linked List](#merge-two-sorted-linked-list)
 17. [Linked List Cycle](#linked-list-cycle)
 18. [Reverse Linked List](#reverse-linked-list)
+19. [Middle of the Linked List](#middle-of-the-linked-list)
 
 ## Solutions Used :bookmark_tabs:
 ## Arrays
@@ -133,4 +134,16 @@ Time Complexity is O(n)
 - We go through each nodes in the linkedlist and then reverse it one by one till we reach the end.
 - Two pointer approach is used for this. The two pointers are prev and curr
 - We initalise previous as None and current as the first node of the Linked List.
+- Time Complexity is O(n) and Space Complexity is O(1)
+
+### [Middle of the Linked List](https://github.com/Shaun04/Grind-75-solutions/blob/main/Linked-List/middleofthelinkedlist.py)
+- Approach 1:
+- We use an array and store the nodes in that array.
+- We then divide the length of the array into two parts.
+- If the length of the array is even then we add 1 or its its odd we dont change anything.
+- Time Complexity is O(n) and Space Complexity is O(n)
+- Approach 2:
+- We use two pointers one slow and one fast
+- The slow pointer goes one ahead and the fast pointer goes two ahead
+- Then we return the slow pointer
 - Time Complexity is O(n) and Space Complexity is O(1)

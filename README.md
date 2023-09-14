@@ -30,7 +30,6 @@ This repository contains my take on the Grind 75 problem solutions.
 - Used a hashmap for this algorithm.
 - Time Complexity is O(nlogn)
 
-
 ### [Best Time to Buy and Sell Stock](https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/besttimetobuyandsell.py)
 - It uses two variables min and max_profit. It traverses the list when it finds the least number of profit it adds it in the min varaible.
 - Time Complexity is O(n).

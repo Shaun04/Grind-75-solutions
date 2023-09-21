@@ -44,8 +44,10 @@ Solution 1 (Using Hashmap)
 - Time Complexity is O(n)
 
 Solution 2 (Using Boyer Moore Algorithm)
-- We initalise two varaibles res and count. If we encounter the same variable we increment count and if we encounter a different number we decrement count.
-- Once the res is 0 we change the number
+- We initalise two varaibles res and count.
+- We put the first number in res
+- If we encounter the same variable we increment count and if we encounter a different number we decrement count.
+- Once the count is 0 we change the number in res
 - Time Complexity is O(1)
 
 ### [Duplicate Element](https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/duplicate-element.py)
@@ -84,7 +86,7 @@ Solution 2 (Using Sets)
 - We first intialise a max variable and we start the pointers from left and right. If left is less than the right we shift the left by one an vice versa.
 - Time Complexity is O(n)
 
-### [Sort Colors](https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/sort-colots.py)
+### [Sort Colors](https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/sort-colors.py)
 - We have used the three pointer approach. For this we need three pointers low,med,high.
 - We swap low and med if med encounters a 0. And when med encounters a 1 we increment med by 1 and read the next.
 - We swap var high and var med when var med encounters a 2.

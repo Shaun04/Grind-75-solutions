@@ -15,14 +15,15 @@ This repository contains my take on the Grind 75 problem solutions.
 9. [Combination Sum](#combination-sum)
 10. [Container with most amount of water](#container-with-most-amount-of-water)
 11. [Sort Colors](#sort-colors)
-12. [Implement Queue Using Stacks](#implement-queue-using-stacks)
-13. [Evaluate Reverse Polish Notation](#evaluate-reverse-polish-notation)
-14. [Min Stack](#min-stack)
-15. [Trapping Rain Water](#trapping-rain-water)
-16. [Merge Two Sorted Linked List](#merge-two-sorted-linked-list)
-17. [Linked List Cycle](#linked-list-cycle)
-18. [Reverse Linked List](#reverse-linked-list)
-19. [Middle of the Linked List](#middle-of-the-linked-list)
+12. [Sum Closest to Zero](#sum-closest-to-zero)
+13. [Implement Queue Using Stacks](#implement-queue-using-stacks)
+14. [Evaluate Reverse Polish Notation](#evaluate-reverse-polish-notation)
+15. [Min Stack](#min-stack)
+16. [Trapping Rain Water](#trapping-rain-water)
+17. [Merge Two Sorted Linked List](#merge-two-sorted-linked-list)
+18. [Linked List Cycle](#linked-list-cycle)
+19. [Reverse Linked List](#reverse-linked-list)
+20. [Middle of the Linked List](#middle-of-the-linked-list)
 
 ## Solutions Used :bookmark_tabs:
 ## Arrays
@@ -91,6 +92,12 @@ Solution 2 (Using Sets)
 - We swap low and med if med encounters a 0. And when med encounters a 1 we increment med by 1 and read the next.
 - We swap var high and var med when var med encounters a 2.
 - Time Complexity is O(n)
+
+### [Sum Closest to Zero](https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/sum-closest-to-zero.py)
+- We first sort the list.
+- Next we then use the two pointer method.
+- We then add the two pointers that we come across.
+- Time Complexity is O(nlogn) and Space Complexity is O(logn) -> For sorting
 
 ## Stacks
 ### [Valid Parentheses](https://github.com/Shaun04/Grind-75-solutions/blob/main/Stack/valid-parentheses.py)

@@ -25,6 +25,7 @@ This repository contains my take on the Grind 75 problem solutions.
 19. [Reverse Linked List](#reverse-linked-list)
 20. [Middle of the Linked List](#middle-of-the-linked-list)
 21. [Valid Anagram](#valid-anagram)
+22. [Longest Palindrome](#longest-palindrome)
 
 ## Solutions Used :bookmark_tabs:
 ## Arrays
@@ -169,3 +170,14 @@ Solution 2 (Using Sets)
 - Method 2: Using Sorting
 - We sort both the list and then check if both the list match or not 
 - Time Complexity is O(n+nlogn) and Space Complexity is O(1)
+
+### [Longest Palindrome](https://github.com/Shaun04/Grind-75-solutions/blob/main/String/longest-palindrome.py)
+- First we get the frequency of each character that occurs in the string.
+- This whole logic is based on the odd frequency. If a odd frequency occurs that element can only occur once in the palindrome.
+- Approach 1: Using set
+- We add the odd elements in the set and then at the end we use the logic len(string) - len(set) + 1
+Appraoch 2: Using Dictonary
+- In this we build a dictonary of the frequency of the elements.
+- Then we go through the dictonary and if we encounter a odd number we increment the odd count else we decrement the odd count.
+- The logic len(string) - len(set) + 1 applies here too
+- Time Complexity and Space Complexity of both the approaches are O(n) and O(n) respectively.

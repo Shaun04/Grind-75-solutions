@@ -24,6 +24,7 @@ This repository contains my take on the Grind 75 problem solutions.
 18. [Linked List Cycle](#linked-list-cycle)
 19. [Reverse Linked List](#reverse-linked-list)
 20. [Middle of the Linked List](#middle-of-the-linked-list)
+21. [Valid Anagram](#valid-anagram)
 
 ## Solutions Used :bookmark_tabs:
 ## Arrays
@@ -33,10 +34,6 @@ This repository contains my take on the Grind 75 problem solutions.
 
 ### [Best Time to Buy and Sell Stock](https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/besttimetobuyandsell.py)
 - It uses two variables min and max_profit. It traverses the list when it finds the least number of profit it adds it in the min varaible.
-- Time Complexity is O(n).
-
-### [Valid Palindrome](https://github.com/Shaun04/Grind-75-solutions/blob/main/String/valid-palidrome.py)
-- If the string contains alphanumeric characters then it is added to a new variable and then later it is checked if its a palindrome or not.
 - Time Complexity is O(n).
 
 ### [Majority Element](https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/majority-element.py)
@@ -155,3 +152,20 @@ Solution 2 (Using Sets)
 - The slow pointer goes one ahead and the fast pointer goes two ahead
 - Then we return the slow pointer
 - Time Complexity is O(n) and Space Complexity is O(1)
+
+
+## Strings
+### [Valid Palindrome](https://github.com/Shaun04/Grind-75-solutions/blob/main/String/valid-palidrome.py)
+- If the string contains alphanumeric characters then it is added to a new variable and then later it is checked if its a palindrome or not.
+- Time Complexity is O(n).
+
+### [Valid Anagram](https://github.com/Shaun04/Grind-75-solutions/blob/main/String/valid-anagram.py)
+- Method 1: Using Hashmap
+- We build two hashmap for both the strings with the key as the letter and value as the frequency when the character occurs.
+- We then check if the elements are same.
+- We can even use python built in datastructers called Counters.
+- Time Complexity is O(n+m) and Space Complexity is O(n+m)
+
+- Method 2: Using Sorting
+- We sort both the list and then check if both the list match or not 
+- Time Complexity is O(n+nlogn) and Space Complexity is O(1)

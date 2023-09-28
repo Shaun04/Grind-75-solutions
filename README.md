@@ -26,6 +26,7 @@ This repository contains my take on the Grind 75 problem solutions.
 20. [Middle of the Linked List](#middle-of-the-linked-list)
 21. [Valid Anagram](#valid-anagram)
 22. [Longest Palindrome](#longest-palindrome)
+23. [Longest Substring without Repeating Characters](#longest-substring-without-repeating-characters)
 
 ## Solutions Used :bookmark_tabs:
 ## Arrays
@@ -176,8 +177,13 @@ Solution 2 (Using Sets)
 - This whole logic is based on the odd frequency. If a odd frequency occurs that element can only occur once in the palindrome.
 - Approach 1: Using set
 - We add the odd elements in the set and then at the end we use the logic len(string) - len(set) + 1
-Appraoch 2: Using Dictonary
+- Appraoch 2: Using Dictonary
 - In this we build a dictonary of the frequency of the elements.
 - Then we go through the dictonary and if we encounter a odd number we increment the odd count else we decrement the odd count.
 - The logic len(string) - len(set) + 1 applies here too
 - Time Complexity and Space Complexity of both the approaches are O(n) and O(n) respectively.
+
+### [Longest Substring without Repeating Characters](https://github.com/Shaun04/Grind-75-solutions/blob/main/String/longest-substring-without-repeating.py)
+- We use the sliding window and two pointer approach for this algorithm.
+- We create a hash set and add the elements that are not there in the hashset and once we come across a element that exists in the hashmap remove that first element and increment right by 1.
+- Time Complexity is O(n) and Space Complexity is O(n)

@@ -27,6 +27,9 @@ This repository contains my take on the Grind 75 problem solutions.
 21. [Valid Anagram](#valid-anagram)
 22. [Longest Palindrome](#longest-palindrome)
 23. [Longest Substring without Repeating Characters](#longest-substring-without-repeating-characters)
+24. [String to Integer Atoi](#string-to-integer-atoi)
+25. [Longest Palindromic Substring](#longest-palindromic-substring)
+26. [Find all Anagrams in a String](#find-all-anagrams-in-a-string) 
 
 ## Solutions Used :bookmark_tabs:
 ## Arrays
@@ -165,7 +168,7 @@ Solution 2 (Using Sets)
 - Method 1: Using Hashmap
 - We build two hashmap for both the strings with the key as the letter and value as the frequency when the character occurs.
 - We then check if the elements are same.
-- We can even use python built in datastructers called Counters.
+- We can even use python built in datastructre called Counters.
 - Time Complexity is O(n+m) and Space Complexity is O(n+m)
 
 - Method 2: Using Sorting
@@ -187,3 +190,22 @@ Solution 2 (Using Sets)
 - We use the sliding window and two pointer approach for this algorithm.
 - We create a hash set and add the elements that are not there in the hashset and once we come across a element that exists in the hashmap remove that first element and increment right by 1.
 - Time Complexity is O(n) and Space Complexity is O(n)
+
+### [String to Integer Atoi](https://github.com/Shaun04/Grind-75-solutions/blob/main/String/longest-substring-without-repeating.py/string-to-integer-atoi.py)
+- We have certain conditions we have to meet to solve this problem.
+- Its a pretty easy problem we have to just follow the conditions and the problem will be solved.
+- Time Complexity is O(n) and Space Complexity is O(1)
+
+### [Longest Palindromic Substring](https://github.com/Shaun04/Grind-75-solutions/blob/main/String/longest-substring-without-repeating.py/longest-palindromic-substring.py)
+- We use the two pointer method and the branching out from the center method.
+- We start from the first element and check the elements that are left and right to that element if they are equal.
+- if they are eqal they go more further to the left and the right respectively.
+- Time Complexity is O(n^2) and Space Complexity is O(1)
+
+### [Find all Anagrams in a String](https://github.com/Shaun04/Grind-75-solutions/blob/main/String/find-all-anagrams-in-a-string.py)
+- We use the sliding window approach to get the substring.
+- We first count the frequency of the p var
+- Then create substring of s and count the frequency of the elements occur.
+- We then check if both p and s counter has the same frequency of elements.
+- We then slide the window by one we remove the first element from the counter and add the last (new) element to the counter.
+- Time Complexity is O(n) and Space Complexity is O(n) 

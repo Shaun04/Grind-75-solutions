@@ -1,6 +1,6 @@
 # GRIND 75 problem solutions
 
-This repository contains my take on the Grind 75 problem solutions.
+This repository contains my take on the Grind 75 problem solutions in Python and Java.
 
 ## Table of Contents :bookmark_tabs:
 

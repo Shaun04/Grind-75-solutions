@@ -39,13 +39,16 @@ This repository contains my take on the Grind 75 problem solutions in Python and
 - Used a hashmap for this algorithm.
 - Time Complexity is O(nlogn)
 
-### [Best Time to Buy and Sell Stock]
+### Best Time to Buy and Sell Stock
 [Python](https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/Python/besttimetobuyandsell.py)
 [Java](https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/Java/maxProfit.java)
 - It uses two variables min and max_profit. It traverses the list when it finds the least number of profit it adds it in the min varaible.
 - Time Complexity is O(n).
 
-### [Majority Element](https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/majority-element.py)
+### Majority Element
+[Python](https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/Python/majority-element.py)
+[Java](https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/Array/majority-element.py)
+
 Solution 1 (Using Hashmap)
 - In this solution we have used a Hashmap to store the values as well as the number of times they occur as a key value pair
 - Time Complexity is O(n)
@@ -57,7 +60,9 @@ Solution 2 (Using Boyer Moore Algorithm)
 - Once the count is 0 we change the number in res
 - Time Complexity is O(1)
 
-### [Duplicate Element](https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/duplicate-element.py)
+### Duplicate Element
+[Python](https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/Python/duplicate-element.py)
+[Java](https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/Java/DuplicateElement.java)
 Solution 1 (Using Hashmap)
 - In this solution we have used a Hashmap to store the values when we encounter a number from the list first we check if it exists in the hashmapm, if it doesnt exist in the hashmap we add that element otherwise we return True.
 - Time Complexity is O(n)
@@ -66,7 +71,9 @@ Solution 2 (Using Sets)
 - Sets in python can only store distinct elements so we convert the list into a set and then check if the length of the set is equal to the length of the list. If both are equal we can be certain there are no duplicate elements.
 - Time Complexity is O(n)
 
-### [Insert Interval](https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/insert-interval.py)
+### Insert Interval
+[Python](https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/Python/insert-interval.py)
+[Java](https://github.com/Shaun04/Grind-75-solutions/blob/main/Array/Java/InsertInterval.java)
 - First we check if the newInterval is in the beginning or end of the already exisitng interval. If it is we directly add it to the list.
 - If the newInterval is in the middle of the array we merge the overlapping element.
 - Time Complexity is O(n)
